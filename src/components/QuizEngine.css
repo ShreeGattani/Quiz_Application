@@ -1,0 +1,39 @@
+/* src/components/QuizEngine.css */
+.quiz-container {
+  max-width: 600px;
+  margin: 6rem auto;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.quiz-container h2 {
+  margin-bottom: 1rem;
+}
+.quiz-container button {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.quiz-container button.correct {
+  background-color: #84c286;
+  color: white;
+}
+.quiz-container button.wrong {
+  background-color: #ba4941;
+  color: white;
+}
+.quiz-container button.default {
+  background-color: #eee;
+}
+.quiz-footer {
+  margin-top: 1rem;
+}
+.quiz-footer progress {
+  width: 100%;
+}
