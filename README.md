@@ -7,14 +7,8 @@ A React-based quiz application developed by Shree Gattani. This project enables 
 * [Features](#features)
 * [Tech Stack](#tech-stack)
 * [Prerequisites](#prerequisites)
-* [Installation](#installation)
-* [Available Scripts](#available-scripts)
 * [Project Structure](#project-structure)
 * [Usage](#usage)
-* [Customization](#customization)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
 
 ## Features
 
@@ -36,42 +30,6 @@ A React-based quiz application developed by Shree Gattani. This project enables 
 
 * **Node.js** (v14 or above) and **npm** or **yarn**
 * A modern browser for running the application
-
-## Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/<username>/shreegattani-quiz_application.git
-   cd shreegattani-quiz_application
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-## Available Scripts
-
-In the project directory, you can run:
-
-* **`npm start`** or **`yarn dev`**
-
-  * Starts the development server. Open [http://localhost:3000](http://localhost:3000) (or the port configured) to view it in the browser.
-* **`npm run build`** or **`yarn build`**
-
-  * Builds the app for production to the `dist` folder.
-* **`npm run preview`** or **`yarn preview`**
-
-  * Serves the production build locally for testing.
-* **`npm test`** or **`yarn test`** (if tests configured)
-
-  * Runs the test suite (if applicable).
-
-> Adjust commands if using Vite or Create React App; ensure scripts in `package.json` are accurate.
 
 ## Project Structure
 
@@ -150,45 +108,4 @@ shreegattani-quiz_application/
 
 > Note: State persistence may be implemented via localStorage (if configured). Ensure that `AddPlayerForm` and `Leaderboard` handle persistence appropriately.
 
-## Customization
-
-* **Questions**: Modify `src/data/questions.js` to add, remove, or update quiz questions. Follow the existing object shape.
-* **Styling**: Tweak CSS files in `components/` and `pages/` for theme adjustments. Consider adding a dark mode toggle if desired.
-* **Routing**: Extend `App.jsx` to include new pages or nested routes for additional features (e.g., user profiles, analytics).
-* **State Management**: For larger-scale features, integrate Context API or Redux to manage global state (e.g., multiple quizzes, categories).
-* **Data Persistence**: Implement localStorage or connect to a backend API to store player info and quiz results persistently.
-
-## Contributing
-
-Contributions are welcome. To contribute:
-
-1. **Fork the repository**.
-2. **Create a feature branch**:
-
-   ```bash
-   git checkout -b feature/YourFeatureName
-   ```
-3. **Make changes** and ensure code follows existing style conventions.
-4. **Test** your changes locally.
-5. **Commit and push** to your fork.
-6. **Open a Pull Request** against the main repository.
-
-Please include a clear description of your changes, motivations, and any relevant screenshots or test details.
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## Contact
-
-For questions or suggestions, reach out to:
-
-* **Author**: Shree Gattani
-* **GitHub**: [https://github.com/shreegattani](https://github.com/shreegattani)
-* **Email**: (gattanishree31@gmail.com)
-
-  Link to the website is - https://quiz-application-eight-lake.vercel.app/about
-
----
-
-*Thank you for using the Quiz Application! Feel free to customize and extend it to suit your needs.*
+Link to the website is - https://quiz-application-eight-lake.vercel.app/about
