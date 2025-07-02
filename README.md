@@ -187,6 +187,8 @@ For questions or suggestions, reach out to:
 * **GitHub**: [https://github.com/shreegattani](https://github.com/shreegattani)
 * **Email**: (gattanishree31@gmail.com)
 
+  Link to the website is - https://quiz-application-eight-lake.vercel.app/about
+
 ---
 
 *Thank you for using the Quiz Application! Feel free to customize and extend it to suit your needs.*
